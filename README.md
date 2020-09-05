@@ -1,5 +1,5 @@
 # yakyak-docker
-This dockerfile uses image debian:latest to build any stable version of yakyak Hangouts desktop client and run using X on you system.
+This dockerfile uses image debian:latest to build a docker image with a stable version of yakyak Hangouts desktop client and run using X on you system.
 
 ### What is yakyak?
 yakyak is a Hangouts desktop client for macOS, Linux 32 / 64 and Windows 32 / 64 build on node.js and atom
@@ -45,9 +45,10 @@ docker-compose up
 ```
 ### Make persistent
 
-To make persistent you need do two things:
-1 Up container and login once on you account 
-2 When your are logged must to copy folder *italic /home/user/.config/* on you local disk and make a persistent volume on docker.
-  You can take example of yakyak volume configured on docker-compose.example
+To make persistent you need to do two things:
+
+1. Up container and login once on you account 
+2. When your are logged must to copy folder *italic /home/user/.config/* on you local disk and make a persistent volume on docker.
+   You can take example of yakyak volume configured on docker-compose.example
 
 
