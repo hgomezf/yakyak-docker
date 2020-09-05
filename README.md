@@ -14,3 +14,8 @@ There are 3 vars you need to specify on build.
 * UID: UID os user you run X on your system
 * GID: GID os user you run X on your system
 
+To specify this vars must user --build-args parameter on docker build.
+Example:
+```
+docker build --no-cache -t yakyak --build-arg VER=1.5.7 --build-arg UID=1000 --build-arg GID=1000 .
+```
