@@ -14,4 +14,5 @@ There are 3 vars you need to specify on build.
 * UID: UID os user you run X on your system
 * GID: GID os user you run X on your system
 
-
+http://github.com - automatic!
+[GitHub](http://github.com)
