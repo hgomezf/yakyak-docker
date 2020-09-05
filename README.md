@@ -1,8 +1,5 @@
 # yakyak-docker
-Dockerfile to build any version of yakyak Hangouts desktop client.
-
-### About
-This dockerfile uses image debian:latest to build any version of yakyak Hangouts desktop client.
+This dockerfile uses image debian:latest to build any stable version of yakyak Hangouts desktop client.
 
 ### What is yakyal?
 yakyak is a Hangouts desktop client for macOS, Linux 32 / 64 and Windows 32 / 64
@@ -11,7 +8,7 @@ yakyak is a Hangouts desktop client for macOS, Linux 32 / 64 and Windows 32 / 64
 
 Building this image you can specify some options:
 
-* Version stable to build
+* Stable version to build
 * UID for the user
 * GID for the user
 
