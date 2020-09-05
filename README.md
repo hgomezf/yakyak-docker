@@ -10,7 +10,7 @@ Take a look on [github](https://github.com/yakyak/yakyak)
 ![image yakyak](https://cloud.githubusercontent.com/assets/123929/16032313/cdba46c2-3204-11e6-912f-a72fef60563a.png)
 
 
-### Features
+### Image Features
 
 * Select stable release from [yakyak github](https://github.com/yakyak/yakyak/releases)
 * Supports sounds and notifications.
