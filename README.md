@@ -26,9 +26,11 @@ There are 3 vars you need to specify on build.
 
 To specify this vars must user --build-args parameter on docker build.
 Example:
+
 ```
 docker build --no-cache -t yakyak-1.5.9 --build-arg VER=1.5.9 --build-arg UID=1000 --build-arg GID=1000 .
 ```
+
 ### Before to run
 
 You must to be secure you have configured your X to accept external connections , if your X not accept it container will not run.
@@ -41,9 +43,11 @@ You can use docker-compose.example in repository.
 
 Once you create docker-compose.yml file , only run :
 
+
 ```
 docker-compose up
 ```
+
 ### Make persistent
 
 To make persistent you need to do two things:
