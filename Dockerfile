@@ -1,7 +1,9 @@
 FROM debian:latest
 ARG VER 
-RUN groupadd -g 1000 user &&\
-    useradd -u 1000 -g 1000 -ms /bin/bash user &&\
+ARG UID
+ARG GID
+RUN groupadd -g ${GID} user &&\
+    useradd -u ${UID} -g ${GID} -ms /bin/bash user &&\
     usermod -G audio user  &&\
     apt-get update && apt-get install -y wget\
                                          apt\
