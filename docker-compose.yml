@@ -1,0 +1,17 @@
+version: '3'
+services:
+  yakyak:
+    image: yakyak-1.5.7:latest
+    privileged: true                                     
+    network_mode: host
+    volumes:
+      - yakyak:/home/user/.config/
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - /etc/resolv.conf:/etc/resolv.conf:ro
+      - /etc/localtime:/etc/localtime
+    devices:
+      - /dev/snd:/dev/snd
+    environment:
+      - DISPLAY=:0
+volumes:
+  yakyak:
