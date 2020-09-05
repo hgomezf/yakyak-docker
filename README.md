@@ -26,7 +26,7 @@ There are 3 vars you need to specify on build.
 To specify this vars must user --build-args parameter on docker build.
 Example:
 ```
-docker build --no-cache -t yakyak --build-arg VER=1.5.7 --build-arg UID=1000 --build-arg GID=1000 .
+docker build --no-cache -t yakyak-1.5.9 --build-arg VER=1.5.9 --build-arg UID=1000 --build-arg GID=1000 .
 ```
 ### Before to run
 
