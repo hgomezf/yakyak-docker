@@ -1,5 +1,6 @@
 # yakyak-docker
 This dockerfile uses image debian:latest to build a docker image with a stable version of yakyak Hangouts desktop client and run using X on you system.
+The image also include chromium browser to open files from yakyak.
 
 ### What is yakyak?
 yakyak is a Hangouts desktop client for macOS, Linux 32 / 64 and Windows 32 / 64 build on node.js and atom
@@ -8,13 +9,13 @@ Take a look on [github](https://github.com/yakyak/yakyak)
 
 ![image yakyak](https://cloud.githubusercontent.com/assets/123929/16032313/cdba46c2-3204-11e6-912f-a72fef60563a.png)
 
-### Options
 
-Building this image you can specify some options:
+### Features
 
-* Stable version to build
-* UID for the user
-* GID for the user
+* Select stable release from [yakyak github](https://github.com/yakyak/yakyak/releases)
+* Supports sounds and notifications.
+* Includes chromium browser to open files from yakyak.
+* Set UID and GID for user on image ( must to match with user runs X on your system ).
 
 ### How to build
 There are 3 vars you need to specify on build.
