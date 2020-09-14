@@ -53,7 +53,7 @@ docker-compose up
 To make persistent you need to do two things:
 
 1. Up container and login once on you account 
-2. When your are logged must to copy folder *italic /home/user/.config/* on you local disk and make a persistent volume on docker.
+2. When your are logged must to copy folder */home/user/.config/* on you local disk and make a persistent volume on docker.
    You can take example of yakyak volume configured on docker-compose.example
 
 
