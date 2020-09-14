@@ -56,4 +56,8 @@ To make persistent you need to do two things:
 2. When your are logged must to copy folder */home/user/.config/* on you local disk and make a persistent volume on docker.
    You can take example of yakyak volume configured on docker-compose.example
 
+### Images already built
 
+You can get docker images already built in my [Dockerhub repo](https://hub.docker.com/r/honoriogomez/yakyak-docker)
+
+NOTE: In this pre-build images UID and GID for user are 1000 , if not match with your user you must to build a new image with this repo.
